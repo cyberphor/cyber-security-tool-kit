@@ -11,4 +11,4 @@ Hello world! These are my Computer Network Defense (CND) cheatsheets.
 * [Windows](/windows/)
 * [Security Onion](/so/)
 
-## Botom of Page
+## Bottom of Page
