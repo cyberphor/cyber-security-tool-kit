@@ -29,4 +29,4 @@ sudo salt \* state.highstate
 cat /opt/so/conf/suricata/threshold.conf
 ```
 
-## Botom of Page
+## Bottom of Page
