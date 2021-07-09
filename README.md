@@ -9,6 +9,7 @@ Hello world! These are my Computer Network Defense (CND) cheatsheets.
 
 ## Contents
 * [Windows](/windows/)
+  * [Logging](windows/logging/) 
 * [Security Onion](/so/)
 
 ## Bottom of Page
