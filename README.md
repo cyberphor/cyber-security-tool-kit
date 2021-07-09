@@ -5,7 +5,7 @@
 </p>
 
 # cnd
-Computer Network Defense (CND) cheatsheets. 
+Computer Network Defense (CND) Cheatsheets. 
 
 ## Contents
 * [Windows](/windows/)
