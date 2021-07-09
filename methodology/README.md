@@ -6,13 +6,25 @@
 
 # Methodolgy
 ## Contents
+* [Getting Started](#getting-started)
 * [Mission Requirements](#mission-requirements)
+* [Battle Rhythm](#battle-rhythm)
 * [Asset Inventory and Baseline](#asset-inventory-and-baseline)
 * [Threat Modeling](#threat-modeling)
 * [Detection Requirements](#detection-requirements)
   * [Detection Enablers](#detection-enablers)
   * [Security Monitoring Checklist](#security-monitoring-checklist)
 * [Response Strategies](#response-strategies) 
+
+## Getting Started
+* First Day (D Day)
+* Initial Assessment (D+1 to D+30)
+* Organizational Alignment & Team Building (D+31 to D+60)
+* Establish Routines (D+61 to D+90)
+* Sustaining (D+91 and Beyond)
+
+**Reference**
+* https://usacac.army.mil/sites/default/files/documents/cal/LeadershipTransition.pdf
 
 ## Mission Requirements
 Below is an example of a Mission Requirements Survey. As a defender, seek out the stakeholders (a.k.a Information Owners) within your organiation and ask them what services, technology, and information require assurance. Use the inherent security objective to design your defense and detection requirements. 
@@ -23,8 +35,26 @@ Below is an example of a Mission Requirements Survey. As a defender, seek out th
 | Sales | Email | Microsoft Outlook | Sale information | Availability | 
 | Finance | Store Data | Microsoft SQL Server | Credit card details | Integrity, Confidentiality |
 
+## Battle Rhythm
+* Daily
+* Weekly
+* Monthly
+* Quarterly
+* Annually
+
 ## Asset Inventory and Baseline
-* 
+### Asset Inventory
+| IP Address | Hostname | MAC Address | Serial Number | Last User | Office | Grid Square |
+| ---------- | -------- | ----------- | ------------- | --------- | ------ | ----------- |
+| 10.11.12.13 | COMPUTER1 | aaaa:bbbb:cccc | 123456 | joe.dee | IT Dept. | C4 |
+| 10.11.12.14 | COMPUTER3 | bbbb:cccc:aaaa | 123666 | jim.bean | C-Suite | D9 |
+| 10.11.12.15 | COMPUTER5 | cccc:aaaa:bbbb | 696969 | jack.daniel | HR Dept. | A2 |
+
+### Baseline
+* Users
+* Administrators
+* Software
+* Services
 
 ## Threat Modeling
 * Attack Surface
@@ -86,6 +116,13 @@ In order to detect suspicious or malicious activity, a defender should implement
 | Software Installations |
 
 ## Response Strategies
+* Contain
+  * Segment
+  * Isolate
+  * Disconnect 
+* Eradicate
+* Recover
+* Lessons Learned
 
 <p align="right">
   <a href="/README.md">Home Page</a> |
