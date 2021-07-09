@@ -1,7 +1,7 @@
 <p align="right">
-  <a href="/windows-logging/README.md">Home Page</a> |
-  <a href="/windows-logging/README.md#contents">Top of Page</a> |
-  <a href="/windows-logging/README.md#bottom-of-page">Bottom of Page</a>
+  <a href="/windows/logging/README.md">Home Page</a> |
+  <a href="/windows/logging/README.md#contents">Top of Page</a> |
+  <a href="/windows/logging/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
 # Windows Logging 
@@ -69,9 +69,9 @@ Computer Configuration > Policies > Windows Settings > Security Settings > Windo
 * https://github.com/nsacyber/Event-Forwarding-Guidance/tree/master/Events 
 
 <p align="right">
-  <a href="/windows-logging/README.md">Home Page</a> |
-  <a href="/windows-logging/README.md#contents">Top of Page</a> |
-  <a href="/windows-logging/README.md#bottom-of-page">Bottom of Page</a>
+  <a href="/windows/logging/README.md">Home Page</a> |
+  <a href="/windows/logging/README.md#contents">Top of Page</a> |
+  <a href="/windows/logging/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
 ## Bottom of Page
