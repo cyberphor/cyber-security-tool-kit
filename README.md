@@ -9,7 +9,8 @@ Hello world! These are my Computer Network Defense (CND) cheatsheets.
 
 ## Contents
 * [Windows](/windows/)
-  * [Logging](windows/logging/) 
+  * [Logging](/windows/logging/) 
+  * [Firewall](/windows/firewall/)
 * [Security Onion](/so/)
 
 ## Bottom of Page
