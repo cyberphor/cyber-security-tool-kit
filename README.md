@@ -13,5 +13,6 @@ Computer Network Defense (CND) cheatsheets.
   * [Firewall](/windows/firewall/)
   * [AppLocker](/windows/applocker/)
 * [Security Onion](/so/)
+  * [Winlogbeat](/so/winlogbeat/) 
 
 ## Bottom of Page
