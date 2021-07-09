@@ -4,7 +4,7 @@
   <a href="/methodology/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
-# Methodolgy
+# Methodology
 ## Contents
 * [Getting Started](#getting-started)
 * [Mission Requirements](#mission-requirements)
