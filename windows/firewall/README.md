@@ -9,6 +9,7 @@
 ## Contents
 * [Block PowerShell](#block-powershell)
 * [Block Command Prompt](#block-command-prompt)
+* [Block WMIC](#block-wmic)
 
 ## Block PowerShell
 Computer Configuration > Policies > Windows Settings > Windows Firewall with Advanced Security > Inbound Rules 
@@ -38,6 +39,16 @@ Computer Configuration > Policies > Windows Settings > Windows Firewall with Adv
   * Computers: n/a
   * Profile: Domain, Private, Public
   * Name: Block Command Prompt
+
+## Block WMIC
+Computer Configuration > Policies > Windows Settings > Windows Firewall with Advanced Security > Inbound Rules 
+  * Rule Type: Program
+  * Program: %SystemRoot%\Windows\System32\wbem\WMIC.exe
+  * Action: Allow the connection if it is secure
+  * Users: Exceptions - Admins
+  * Computers: n/a
+  * Profile: Domain, Private, Public
+  * Name: Block WMIC
 
 <p align="right">
   <a href="/windows/firewall/README.md">Home Page</a> |
