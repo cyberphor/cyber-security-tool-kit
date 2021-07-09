@@ -14,6 +14,7 @@ Computer Network Defense (CND) cheatsheets.
   * [AppLocker](/windows/applocker/)
 * [Security Onion](/so/)
   * [Suricata](/so/suricata/)
-  * [Winlogbeat](/so/winlogbeat/) 
+  * [Winlogbeat](/so/winlogbeat/)
+  * [Elastalert](/so/elastalert/)
 
 ## Bottom of Page
