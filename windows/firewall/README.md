@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="/windows/firewall/README.md">Home Page</a> |
+  <a href="/README.md">Home Page</a> |
   <a href="/windows/firewall/README.md#contents">Top of Page</a> |
   <a href="/windows/firewall/README.md#bottom-of-page">Bottom of Page</a>
 </p>
