@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="/so/elastalert/README.md">Home Page</a> |
+  <a href="/README.md">Home Page</a> |
   <a href="/so/elastalert/README.md#contents">Top of Page</a> |
   <a href="/so/elastalert/README.md#bottom-of-page">Bottom of Page</a>
 </p>
