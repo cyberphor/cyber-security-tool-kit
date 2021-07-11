@@ -115,19 +115,39 @@ In order to detect suspicious or malicious activity, a defender should implement
 | AppLocker Blocks | 
 | Software Installations |
 
-## Response Strategies
-* Contain
-  * Segment
-  * Isolate
-  * Disconnect 
-* Eradicate
-* Recover
-* Lessons Learned
+## Containment Strategies
+* Segment
+* Isolate
+  * Isolate the Victim 
+  * Isolate the Attacker
+* Disconnect 
+
+## Eradicate
+* Sanitize
+  * Clear
+  * Purge
+  * Destroy
+* Patch
+* Reimage
+* Validate
+
+## Recovery Phase
+* The Recovery phase involves:
+  * Restoring impacted services to FMC (this may require reassembling systems)
+  * Documenting what happened
+    * Chronology of events during the incident lifecycle
+    * Root cause for the incident
+    * Location of where evidence was collected from
+    * Actions taken and changes made during the response
+    * Impact estimate
+    * Validation results captured during the Eradication phase
+  * Identifying Indicators of Compromise (IOCs) to improve your organization's prevention, detection, and response capabilities
+  * Retaining evidence 
 
 <p align="right">
   <a href="/README.md">Home Page</a> |
   <a href="/methodology/README.md#contents">Top of Page</a> |
-  <a href="/methodology/README.m"d#>Bottom of Page</a>
+  <a href="/methodology/README.md#bottom-of-page"#>Bottom of Page</a>
 </p>
 
 ## Bottom of Page
