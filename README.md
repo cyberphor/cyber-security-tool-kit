@@ -17,6 +17,7 @@ Computer Network Defense (CND) Cheatsheets.
   * [Recover](/incident-handling/05-recover/)
   * [Learn](/incident-handling/06-learn/)
 * [Windows](/windows/)
+  * [Event IDs](/windows/event-ids/) 
   * [Logging](/windows/logging/) 
   * [Firewall](/windows/firewall/)
   * [AppLocker](/windows/applocker/)
