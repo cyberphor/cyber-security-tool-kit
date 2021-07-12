@@ -13,6 +13,11 @@
 * [Detection Zones](#detection-zones)
 * [Detection Enablers](#detection-enablers)
 * [Checklists](#checklists)
+  * [Daily Checklist](#daily-checklist)
+  * [Weekly Checklist](/incident-handling/02-identify/checklists/weekly-checklist.md)
+  * [Monthly Checklist](/incident-handling/02-identify/checklists/monthly-checklist.md)
+  * [Quarterly Checklist](/incident-handling/02-identify/checklists/quarterly-checklist.md)
+  * [Annual Checklist](/incident-handling/02-identify/checklists/annual-checklist.md)
 * [Analysis](#analysis)
   * [The Universal Investigation Process](#the-universal-investigation-process)
   * [The Diamond Model of Intrusion Analysis](#the-diamond-model-of-intrusion-analysis)
@@ -94,7 +99,8 @@ In order to detect suspicious or malicious activity, a defender should implement
 
 ## Checklists
 Below is an example of a Daily Checklist, see the [Checklists](/incident-handling/02-identify/checklists/) folder for Weekly, Monthly, Quarterly, and Annual Checklists. This is where your baselines will become helpful. Use them to find precursors and/or indicators of an incident. If something is found, start a Detection Play (see below).
-**Daily Checklist**
+
+### Daily Checklist
 |     | Monday | Tuesday | Wednesday | Thursday | Friday |
 | --- | ------ | ------- | --------- | -------- | ------ |
 | NIDS Alerts |
