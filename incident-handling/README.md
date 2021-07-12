@@ -13,15 +13,15 @@
 * [Recover](/incident-handling/05-recover/)
 * [Learn](/incident-handling/06-learn/)
 
-## Getting Started
-* First Day (D Day)
-* Initial Assessment (D+1 to D+30)
-* Organizational Alignment & Team Building (D+31 to D+60)
-* Establish Routines (D+61 to D+90)
-* Sustaining (D+91 and Beyond)
-
-## References
-* https://usacac.army.mil/sites/default/files/documents/cal/LeadershipTransition.pdf
+## PICERL Compared to Other Frameworks
+| SANS <br> PICERL | NIST <br> Risk Management Framework | NIST <br> Incident Response Life Cycle  | NIST <br> Cybersecurity Framework |
+| ------ | --- | ---- | --------- |
+| Prepare | Categorize <br> Select <br> Implement <br> Assess <br> Authorize <br> | Preparation | Identify <br> Protect | 
+| Identify | Monitor | Detection & Analysis | Detect |
+| Contain | Monitor | Containment, Eradication, and Recovery | Respond |
+| Eradicate | Monitor | Containment, Eradication, and Recovery | Respond |
+| Recover | Monitor | Containment, Eradication, and Recovery | Recover |
+| Lessons Learned | Monitor | Post-Incident Activity | Recover |
 
 <p align="right">
   <a href="/README.md">Home Page</a> |
