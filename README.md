@@ -8,7 +8,7 @@
 Computer Network Defense (CND) Cheatsheets. 
 
 ## Contents
-* [Methodology](/methodology/)
+* [Incident Handling](/incident-handling/)
 * [Windows](/windows/)
   * [Logging](/windows/logging/) 
   * [Firewall](/windows/firewall/)
