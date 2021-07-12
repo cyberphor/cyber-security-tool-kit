@@ -1,10 +1,10 @@
 <p align="right">
   <a href="/README.md">Home Page</a> |
-  <a href="/methodology/README.md#contents">Top of Page</a> |
-  <a href="/methodology/README.md#bottom-of-page">Bottom of Page</a>
+  <a href="/incident-handling/README.md#contents">Top of Page</a> |
+  <a href="/incident-handling/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
-# Methodology
+# Incident Handling
 ## Contents
 * [Getting Started](#getting-started)
 * [Mission Requirements](#mission-requirements)
@@ -146,8 +146,8 @@ In order to detect suspicious or malicious activity, a defender should implement
 
 <p align="right">
   <a href="/README.md">Home Page</a> |
-  <a href="/methodology/README.md#contents">Top of Page</a> |
-  <a href="/methodology/README.md#bottom-of-page"#>Bottom of Page</a>
+  <a href="/incident-handling/README.md#contents">Top of Page</a> |
+  <a href="/incident-handling/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
 ## Bottom of Page
