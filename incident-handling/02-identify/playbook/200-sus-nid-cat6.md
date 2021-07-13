@@ -14,11 +14,7 @@ Scans generates can logs with multiple "one-to-many" network connections in a sh
 # Query
 1. Login to Kibana
 2. Navigate to the Discover tab
-3. Add the following fields to the default Visualization: 
-  * source.ip
-  * source.port
-  * destination.ip
-  * destination.port
+3. Add the following fields to the default Visualization: source.ip, source.port, destination.ip, destination.port
 5. Add the following filter to the default Visualization: Field = source.ip, Operator = exists
 6. Input the query below into the search bar and then, click-on the Refresh button on the top-right of the screen
 ```bash
