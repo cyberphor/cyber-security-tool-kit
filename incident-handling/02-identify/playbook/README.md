@@ -9,6 +9,7 @@
   * [Incident Category](#incident-category)
   * [Description](#description)
 * [Objective](#objective)
+  *[Example Objective](#example-objective)
 * [Analysis](#analysis)
 * [Query](#query)
 * [Notes](#notes)
@@ -27,7 +28,9 @@ Below is a list of triggers for the defender to invoke a incident detection/resp
 * Network administrator notices unauthorized, outbound network connections
 
 ## Naming Convention
+```
 <uid>-<cl>-<dsid>-<cat>: <desc>
+```
 
 ### Examples
 * 200-sus-nid-cat6: Detect a network scan
