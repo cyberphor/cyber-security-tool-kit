@@ -1,10 +1,10 @@
 <p align="right">
   <a href="/README.md">Home Page</a> |
-  <a href="/incident-handling/06-learn/README.md#contents">Top of Page</a> |
-  <a href="/incident-handling/06-learn/README.md#bottom-of-page">Bottom of Page</a>
+  <a href="/06-improve/README.md#contents">Top of Page</a> |
+  <a href="/06-improve/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
-# Learn
+# Improve
 ## Contents
 * [Change Control](#change-control)
 * [Lessons Learned](#lessons-learned)
@@ -32,8 +32,8 @@ Make a formal decision on how and when to get rid of evidence.
 
 <p align="right">
   <a href="/README.md">Home Page</a> |
-  <a href="/incident-handling/06-learn/README.md#contents">Top of Page</a> |
-  <a href="/incident-handling/06-learn/README.md#bottom-of-page">Bottom of Page</a>
+  <a href="/06-improve/README.md#contents">Top of Page</a> |
+  <a href="/06-improve/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
 ## Bottom of Page
