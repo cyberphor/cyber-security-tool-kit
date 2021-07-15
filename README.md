@@ -18,7 +18,7 @@ Computer Network Defense (CND) Cheatsheets.
   * [Security Onion](/00-prerequisites/security-onion/)
     * [Suricata](/00-prerequisites/security-onion/suricata.md)
     * [Winlogbeat](/00-prerequisites/security-onion/winlogbeat.md)
-    * [Elastalert](/00-prerequisites/security-onion/elastalert.md)
+    * [ElastAlert](/00-prerequisites/security-onion/elastalert.md)
 * [Detect](/01-detect/)
   * [Checklists](/01-detect/checklists/)
     * [Daily](/01-detect/checklists/daily.md)  
