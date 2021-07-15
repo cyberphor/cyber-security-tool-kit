@@ -4,7 +4,7 @@
   <a href="/00-prerequisites/security-onion/elastalert.md#bottom-of-page">Bottom of Page</a>
 </p>
 
-# Elastalert
+# ElastAlert
 ## Contents
 * [Whitelist - IP Addresses](#whitelist-ip-addresses)
 * [Whitelist - Ports](#whitelist-ports)
