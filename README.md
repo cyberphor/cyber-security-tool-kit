@@ -21,7 +21,7 @@ Computer Network Defense (CND) Cheatsheets.
     * [Elastalert](/00-prerequisites/security-onion/elastalert/)
 * [Detect](/01-detect/)
   * [Checklists](/01-detect/checklists/)
-    * [Daily](/01-detect/checklists/)  
+    * [Daily](/01-detect/checklists/daily.md)  
 * [Analyze](/02-analyze/)
   * [Playbook](/02-analyze/playbook/) 
 * [Contain](/03-contain/)
