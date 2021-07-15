@@ -1,7 +1,7 @@
 # Daily Security Checklist
 **Instructions**  
 1. Perform the checks below, starting top-to-bottom. 
-2. Once all checks have been performed, annotate in the SOC journal (i.e. DA 1594) anything marked "Yes."
+2. Once all checks have been performed, annotate anything marked "Yes" accordingly (i.e. IMS, DA 1594, etc.). 
 3. For every check marked "yes", select and execute the appropiate play from our Incident Response Playbook.
 
 ## Network Perimeter
