@@ -24,7 +24,7 @@
 | Security Check | No | Yes |
 | -------------- | --- | --- | 
 | Any SIEM alarms trip?
-| Any Removable Media violations?
+| Any removable media violations?
 | Number of administrators changed? 
 | Number of users changed?
 | Any group membership changes?
