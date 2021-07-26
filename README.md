@@ -5,29 +5,26 @@
 </p>
 
 # cnd
-Computer Network Defense (CND) Cheatsheets. 
+Computer Network Defense (CND) Cheatsheets.
 
 ## Contents
 * [Getting Started](#getting-started)
-* [Prerequisites](/00-prerequisites/)
+* [Preparation](/00-prerequisites/)
   * [Windows](/00-prerequisites/windows/)
-    * [Event IDs](/00-prerequisites/windows/event-id.md) 
-    * [Logging](/00-prerequisites/windows/logging.md) 
+    * [Event IDs](/00-prerequisites/windows/event-id.md)
+    * [Logging](/00-prerequisites/windows/logging.md)
     * [Firewall](/00-prerequisites/windows/firewall.md)
     * [AppLocker](/00-prerequisites/windows/applocker.md)
   * [Security Onion](/00-prerequisites/security-onion/)
     * [Suricata](/00-prerequisites/security-onion/suricata.md)
     * [Winlogbeat](/00-prerequisites/security-onion/winlogbeat.md)
     * [ElastAlert](/00-prerequisites/security-onion/elastalert.md)
-* [Detect](/01-detect/)
-  * [Checklists](/01-detect/checklists/)
-    * [Daily](/01-detect/checklists/daily.md)  
-* [Analyze](/02-analyze/)
-  * [Playbook](/02-analyze/playbook/) 
-* [Contain](/03-contain/)
-* [Eradicate](/04-recover/)
-* [Recover](/05-recover)
-* [Improve](/06-improve/)
+* [Detection & Analysis](/02-detection-analysis/)
+  * [Checklists](/02-detection-analysis/checklists/)
+    * [Daily](/02-detection-analysis/checklists/daily.md)  
+* [Containment, Eradication, and Recovery](/03-containment-eradication-recovery/)
+* [Post-Incident Activity](/04-post-incident-activity/)
+* [Playbook](/playbook/)
 
 ## Getting Started
 * First Day (D Day)
