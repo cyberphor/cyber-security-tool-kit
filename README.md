@@ -4,8 +4,7 @@
   <a href="/README.md#bottom-of-page">Bottom of Page</a>
 </p>
 
-# cnd
-Computer Network Defense (CND) Cheatsheets.
+# Incident Handling SOP
 
 ## Contents
 * [Getting Started](#getting-started)
@@ -19,9 +18,9 @@ Computer Network Defense (CND) Cheatsheets.
     * [Suricata](/00-prerequisites/security-onion/suricata.md)
     * [Winlogbeat](/00-prerequisites/security-onion/winlogbeat.md)
     * [ElastAlert](/00-prerequisites/security-onion/elastalert.md)
-* [Detection & Analysis](/02-detection-analysis/)
-  * [Checklists](/02-detection-analysis/checklists/)
-    * [Daily](/02-detection-analysis/checklists/daily.md)  
+* [Detection](/02-detection/)
+  * [Checklists](/02-detection/checklists/)
+    * [Daily](/02-detection/checklists/daily.md)  
 * [Containment, Eradication, and Recovery](/03-containment-eradication-recovery/)
 * [Post-Incident Activity](/04-post-incident-activity/)
 * [Playbook](/playbook/)
