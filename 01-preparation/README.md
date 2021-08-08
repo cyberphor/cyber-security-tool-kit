@@ -1,101 +1,25 @@
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/00-prerequisites/README.md#contents">Top of Page</a> |
-  <a href="/00-prerequisites/README.md#bottom-of-page">Bottom of Page</a>
-</p>
+# Chapter 1
+## Introduction
 
-# Prerequisites
-## Contents
-* [Framework Comparisons](#framework-comparisons)
-* [Mission Requirements](#mission-requirements)
-* [Team](#team)
-* [Asset Inventory](#asset-inventory)
-* [Baselines](#baselines)
-* [Threat Model](#threat-model)
-* [Battle Rhythm](#battle-rhythm)
+### 1-1. Purpose
+This document assigns responsibilities and establishes Standard Operating Procedures (SOPs) for Incident Handling. It supports the unit’s Operating Forces Security Plan (OFSP) and Incident Response Plan (IRP) by implementing a number of best practices from the sources listed in appendix A.
 
-## Framework Comparisons
-| SANS <br> PICERL | NIST <br> Risk Management Framework | NIST <br> Incident Response Life Cycle  | NIST <br> Cybersecurity Framework |
-| ------ | --- | ---- | --------- |
-| Prepare | Categorize <br> Select <br> Implement <br> Assess <br> Authorize <br> | Preparation | Identify <br> Protect | 
-| Identify | Monitor | Detection & Analysis | Detect |
-| Contain | Monitor | Containment, Eradication, and Recovery | Respond |
-| Eradicate | Monitor | Containment, Eradication, and Recovery | Respond |
-| Recover | Monitor | Containment, Eradication, and Recovery | Recover |
-| Lessons Learned | Monitor | Post-Incident Activity | Recov
+### 1-2. References
+See appendix A.
 
-## Mission Requirements
-Below is an example of a Mission Requirements Survey. As a defender, seek out the stakeholders (a.k.a Information Owners) within your organiation and ask them what services, technology, and information require assurance. Use the inherent security objective to design your defense and detection requirements. 
+### 1-3. Explanation of Abbreviations and Terms
+In addition to the explanations provided below, see the glossary for all abbreviations and terms.
+* Computer. A machine with the ability to calculate, transmit, and/or receive data.
+* Network. A medium of two or more interconnected computers.
+* Security. The state of being free from care or trouble. This term originates from the latin expression, “se cura” (a combination of the words “free from” and “care”). Security is achieved through protection and maintained by defense.
+* Protection. Preventing harm by shielding the target from the source.
+* Defense. Reacting to harm by defeating and removing the source.
+* Policy. A collection of principles adopted by an organization in order to prevent the exhaustion or abuse of a resource.
+* Event. An observable occurrence within a computer or network.
+* Incident. A computer security policy violation. Incidents can be anticipated via precursors and detected through the discovery of indicators.
+* Precursor. Evidence suggesting an incident may occur in the future. Examples are log entries showing usage of a vulnerability scanner, new exploits being published, and/or threats being made against the organization.
+* Indicator. Evidence suggesting an incident has or is occurring now. Examples are Network Intrusion Detection System (NIDS) alerts, anti-malware alerts, and/or multiple failed logins from an unknown computer.
+* Computer Network Defense. Actions taken to defend against unauthorized activity within computer networks. After the issuance of Joint Publication 3-13, “Information Operations,” this term was formally deleted from the Department of Defense (DoD) dictionary and replaced by the use of “cyberspace defense.”
 
-| Stakeholder | Service | Technology | Information | Security Objective |
-| ----------- | ------- | ---------- | ----------- | ------------------ |
-| HR | Share Files | Share Drive | PII | Confidentiality |
-| Sales | Email | Microsoft Outlook | Sale information | Availability | 
-| Finance | Store Data | Microsoft SQL Server | Credit card details | Integrity, Confidentiality |
-
-## Team
-### Personnel
-* ISSM
-* ISSO
-* System administrator
-* Network administrator
-
-## Asset Inventory
-| IP Address | Hostname | MAC Address | Serial Number | Last User | Office | Grid Square |
-| ---------- | -------- | ----------- | ------------- | --------- | ------ | ----------- |
-| 10.11.12.13 | COMPUTER1 | aaaa:bbbb:cccc | 123456 | joe.dee | IT Dept. | C4 |
-| 10.11.12.14 | COMPUTER3 | bbbb:cccc:aaaa | 123666 | jim.bean | C-Suite | D9 |
-| 10.11.12.15 | COMPUTER5 | cccc:aaaa:bbbb | 696969 | jack.daniel | HR Dept. | A2 |
-
-## Baselines
-* List of unique hardware
-* List of unique software
-* Image
-  * Administrators
-  * Users
-  * Software
-  * Services
-* Security controls
-* Network activity
-  * By the hour
-  * IP addresses
-  * Activity
-
-## Threat Model
-* Attack Surface
-  * Data Flow Diagrams
-    * Source
-    * Data Flow
-    * Trust Boundary
-    * Target 
-* Attack Vectors 
-* Impact
-* Probability
-
-## Battle Rhythm
-### Daily
-* Network perimeter logs
-* Host perimeter logs
-
-### Weekly
-* Backups
-* Vulnerabilities
-* Misconfigurations
-
-### Monthly
-* Asset inventory
-
-### Quarterly
-* Baseline
-* Documentation
-
-### Annually
-* Threat model
-
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/00-prerequisites/README.md#contents">Top of Page</a> |
-  <a href="/00-prerequisites/README.md#bottom-of-page">Bottom of Page</a>
-</p>
-
-## Bottom of Page
+### 1-4. Overview
+Incident handling is detecting, analyzing, and responding to incidents in order to mitigate their operational and technical impact. The National Institute of Standards and Technology (NIST) organizes incident handling into four phases: (1) Preparation, (2) Detection & Analysis, (3) Containment, Eradication, and Recovery, and (4) Post-Incident Activity. The following chapters summarize the actions that must be taken during each of these phases and/or sub-phases.

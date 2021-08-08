@@ -1,44 +1,71 @@
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/README.md#contents">Top of Page</a> |
-  <a href="/README.md#bottom-of-page">Bottom of Page</a>
-</p>
-
 # Incident Handling SOP
 
 ## Contents
-* [Getting Started](#getting-started)
-* [Preparation](/00-prerequisites/)
-  * [Windows](/00-prerequisites/windows/)
-    * [Event IDs](/00-prerequisites/windows/event-id.md)
-    * [Logging](/00-prerequisites/windows/logging.md)
-    * [Firewall](/00-prerequisites/windows/firewall.md)
-    * [AppLocker](/00-prerequisites/windows/applocker.md)
-  * [Security Onion](/00-prerequisites/security-onion/)
-    * [Suricata](/00-prerequisites/security-onion/suricata.md)
-    * [Winlogbeat](/00-prerequisites/security-onion/winlogbeat.md)
-    * [ElastAlert](/00-prerequisites/security-onion/elastalert.md)
-* [Detection](/02-detection/)
-  * [Checklists](/02-detection/checklists/)
-    * [Daily](/02-detection/checklists/daily.md)  
-* [Containment, Eradication, and Recovery](/03-containment-eradication-recovery/)
-* [Post-Incident Activity](/04-post-incident-activity/)
-* [Playbook](/playbook/)
+### Chapter 1
+**Introduction**  
+Purpose  
+References  
+Explanation of Abbreviations and Terms  
+Overview  
 
-## Getting Started
-* First Day (D Day)
-* Initial Assessment (D+1 to D+30)
-* Organizational Alignment & Team Building (D+31 to D+60)
-* Establish Routines (D+61 to D+90)
-* Sustaining (D+91 and Beyond)
+### Chapter 2
+**Preparation Procedures**  
+People  
+Processes  
+Technology  
 
-## References
-* https://usacac.army.mil/sites/default/files/documents/cal/LeadershipTransition.pdf
+### Chapter 4  
+**Detection Procedures**  
+Overview  
+Detection Zones  
+Daily Security Monitoring Checklist  
 
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/README.md#contents">Top of Page</a> |
-  <a href="/README.md#bottom-of-page">Bottom of Page</a>
-</p>
+### Chapter 5
+**Analysis Procedures**
+Overview  
+Investigation Procedures  
+Triage Procedures  
 
-## Bottom of Page
+### Chapter 6
+**Containment Procedures**  
+Overview  
+Short-Term Containment Procedures  
+Evidence Collection Procedures  
+Long-Term Containment Procedures  
+
+### Chapter 7
+**Eradication Procedures**  
+Overview  
+Root Cause Analysis Procedures  
+Procedures for Reidentifying Impacted Computers  
+Reimaging, Patching, and Scanning Procedures  
+Procedures for Changing Passwords  
+
+## Chapter 8
+**Recovery Procedures**  
+Overview  
+Restoration Procedures  
+Validation Procedures  
+Monitoring Procedures  
+
+### Chapter 9
+**Post-Incident Activity Procedures**  
+Overview  
+Procedures for Conducting an AAR  
+Reporting Procedures  
+Procedures for Implementing Lessons Learned  
+
+### Appendixes
+A. References  
+B. Responsibilities  
+C. Data Flow Diagram  
+D. STRIDE Matrix  
+E. Asset Inventory  
+F. Baselines  
+G. Battle Rhythm  
+H. Technology Requirements, Solutions, and Prerequisites  
+I. Procedures for Installing, Operating, and Maintaining Incident Handling Technology  
+J. Daily Security Monitoring Checklist  
+K. Case Templates  
+
+### Glossary
