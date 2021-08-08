@@ -1,6 +1,7 @@
-# Incident Handling SOP
 
-## Contents
+# Incident Handling SOP  
+
+## Contents  
 ### Chapter 1
 **Introduction**  
 Purpose  
@@ -21,7 +22,7 @@ Detection Zones
 Daily Security Monitoring Checklist  
 
 ### Chapter 5
-**Analysis Procedures**
+**Analysis Procedures**  
 Overview  
 Investigation Procedures  
 Triage Procedures  
@@ -41,7 +42,7 @@ Procedures for Reidentifying Impacted Computers
 Reimaging, Patching, and Scanning Procedures  
 Procedures for Changing Passwords  
 
-## Chapter 8
+## Chapter 8  
 **Recovery Procedures**  
 Overview  
 Restoration Procedures  
