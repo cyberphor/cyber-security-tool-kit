@@ -42,7 +42,7 @@ Procedures for Reidentifying Impacted Computers
 Reimaging, Patching, and Scanning Procedures  
 Procedures for Changing Passwords  
 
-## Chapter 7   
+### Chapter 7   
 **Recovery Procedures**  
 Overview  
 Restoration Procedures  
