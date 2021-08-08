@@ -1,29 +1,18 @@
-# Chapter 4  
-## Detection Procedures  
+# Chapter 5  
+## Analysis Procedures  
 
-### 4-1. Overview  
-The Detection sub-phase of incident handling is when we survey the network for suspicious and/or malicious activity worth escalating into the Analysis sub-phase. The network is organized into four Detection Zones. Cyber Defense personnel will use the Daily Security Monitoring Checklist discussed below to collect and check events from each Detection Zone. 
+### 5-1. Overview  
+The Analysis sub-phase of incident handling is when we investigate and then triage escalated events. An event triaged as a false positive does not require Containment, Eradication, or Recovery procedures. Yet, the Post-Incident Activity phase should still be executed for optimization and training purposes. An event triaged as a true positive will be declared as an incident.
 
-### 4-2. Detection Zones  
-The network is organized into four different Detection Zones in order to reflect the context of what can be observed within that area of cyberspace. 
-Network Perimeter. Events at the network entrance/exit (data sources: network-based firewalls, routers, Network-based Intrusion Detection Systems (NIDS), etc). 
-Host Perimeter. Events unique to every network interface (data sources: switches, host-based firewalls, Host-based Intrusion Detection Systems (HIDS), etc).
-Application Level. Events unique to every program (data sources: mission command applications, web servers, name resolution servers, file sharing servers, etc.) 
-System Level. Events unique to every computer (data sources: anti-malware programs, file integrity checkers, host-based security systems, the Operating System, the kernel, etc).
+### 5-2. Investigation Procedures  
+The goal of an investigation is to collect evidence and use it to bridge the gap between perception and reality. The receipt of an IDS alert does not always mean an incident actually occurred. Additional context is required. Context is achieved by compounding and weaving together metadata about an event. Examples of metadata are the date and time of event, or the identity used to launch a suspicious process into memory. In order to collect metadata, build context, and determine if an event is benign or not, Cyber Defense personnel will use two methodologies championed by Chris Sanders: the Universal Investigative Process and RECAP. Chris Sanders is the author of multiple references listed in appendix A.
+* The Universal Investigative Process. The Universal Investigative Process involves questioning existing observations, developing hypotheses, searching related data sources for answers, and generating conclusions.
+* RECAP (Reduce, Expand, Chart, Aggregate, and Pivot). RECAP is a collection of techniques for transforming data. By changing the form of data, we can gain new perspectives and develop better questions about the same event.
+  * Reduce. Filter out data (focus on a specific time period, computers, etc).
+  * Expand. Filter in data (review a bigger time period, include more computers, etc.). This technique is comparable to long-tail analysis or ranking events to identify outliers.  
+  * Chart. Visual data using bars, lines, and graphs.
+  * Aggregate. Organize data based on their unique data fields.
+  * Pivot. Search a data source, pick a field and value of interest, and then see if they can be found in other data sources. Examples of values one can pivot with are IP addresses, ports, domain names, usernames, file hashes, and process names. Examples of data sources are alerts, netflow, transaction logs, trends, Packet Capture (PCAP) files, open source intelligence, Windows events, Registry keys, and file systems.  
 
-### 4-3. Daily Security Monitoring Checklist  
-Cyber Defense personnel will execute the checklist in appendix I at the beginning of every duty day. All observations made while executing the checklist must be recorded using DA Form 1594 and the SOPs listed below. 
-* Page Number. Put the page number. 
-* Number of Pages. Put the total number of pages. 
-* Organization or Installation. Put our section followed by our unit identifier. 
-* Location. Put our building number. 
-* Period Covered - From. Put the time checks began (use the DD MMM YY date format).
-* Period Covered - To. Put the time close-of-business occurred (use the same format).
-* Item Number. Put the Item Number of the check. Use the same Item Number for the check you are referencing even if you add entries for other checks. Entries about a check do not need to be consecutive. 
-* Time in. Put the time the current observation was added to the journal.
-* Time out. Leave this field blank.
-* Incidents, Messages, Orders, etc. Record all details relating to the check being executed in this column. A single entry does not need to fit on one line. If a check produces nothing significant, put “NSTR” (or “Nothing significant to report”).
-* Action Taken. Put one of the following: logged (L), escalated (E), or false positive (F).
-* Initials. Put your initials in this field. 
-* Typed Name and Grade of Officer or Official on Duty. Leave this field blank.
-* Signature. Leave this field blank.
+### 5-3. Triage Procedures  
+True positives are events that were confirmed to be computer security violations while false positives are not. Cyber Defense personnel will triage events into one of these two categories by comparing what happened to what is allowed to happen. For example, someone accessing another person’s account without authorization is a computer security policy violation. Yet, a USB connection could be considered benign if the culprit had permission. Cyber Defense personnel will consult with the ISSO, Acceptable Use Policies (AUPs), Non-Disclosure Agreements (NDAs), Privileged Access Agreements (PAAs), etc. to make their determinations.  
