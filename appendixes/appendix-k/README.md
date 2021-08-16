@@ -2,7 +2,7 @@
 ## Case Templates
 
 ### K-1. Overview
-Our case templates represent what we plan to do if we detect something suspicious or malicious within the network. Every Task Group below represents a different phase of the incident handling process. 
+Our case templates represent what we plan to do if we detect something suspicious or malicious within the network. Each task group below represents a different phase of the incident handling process. 
 
 ### K-2. Case Templates
 * Template name: Suspicious activity 
