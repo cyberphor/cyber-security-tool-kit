@@ -14,4 +14,4 @@ STRIDE is an acronym and helps categorize threats based on the security principl
 | Component | S   | T   | R   | I   | D   | E   |
 | --------- | --- | --- | --- | --- | --- | --- |
 | Directory Server | | | | | x | x |
-| File Server | | x | | | | | 
+| File Server | | x | | | x | | 
