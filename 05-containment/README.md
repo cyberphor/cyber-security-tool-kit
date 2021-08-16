@@ -1,34 +1,30 @@
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/incident-handling/03-contain/README.md#contents">Top of Page</a> |
-  <a href="/incident-handling/03-contain/README.md#bottom-of-page">Bottom of Page</a>
-</p>
+# Chapter 5
+## Containment Procedures
 
-# Contain
-## Contents
-* [Network](#network)
-* [System](#system)
+### 5-1. Overview
+The Containment sub-phase begins when an incident is declared and ends when computers impacted can be taken offline for clean-up. During this incident handling phase, short-term containment and evidence collection procedures are executed. In situations where affected computers must remain available to the organization, long-term containment procedures will be performed. The purpose of the Containment phase is to control the spread of an incident.  
 
-## Network
-The containment strategies below can be implemented via VLAN, ACL, or physically.
-* Segment the computer from the network
-* Isolate
-  * Isolate the victim
-  * Isolate the attacker
-* Disconnect the computer from the network
+### 5-2. Short-Term Containment Procedures
+Cyber Defense personnel must execute the procedures below when containing an incident.
+* Characterize the incident. 
+* Assign a primary and assistant handler to the incident.
+* Notify the ISSO.
+* Update the case file within our IMS server.
+* Get approval from the ISSO to disconnect and/or disable those impacted.
+* Disconnect any impacted computer from the network.
+* Disable any account abused during the incident.
 
-## System
-The containment strategies below can be implemented via Group Policy, PowerShell, or manually. 
-* Disable the account
-* Change the account's password 
-* Remove the account from the related group
-* Delete the account
-* Stop the process
+### 5-3. Evidence Collection Procedures
+Cyber Defense personnel must execute the procedures below when performing digital forensics. The purpose of this sub-phase is to collect evidence and facilitate the selection of a response plan.
+* Connect a hardware write-blocker to the impacted computer. 
+* Collect memory data. If the computer was powered-off, collect memory data from crash, hibernation, and/or page files. 
+* Check for disk encryption. 
+* Create a triage image. Collect the Registry, .lnk files, jump lists, prefetch files, logs, browser data, the Recycle Bin, the Master File Table, and hibernation files.  
+* Analyze the triage image and determine if an image of the entire computer is necessary. If yes, image the entire computer. 
+* Determine if the impacted computer can be unavailable for an extended period of time. If yes, skip the long-term containment phase and begin executing eradication procedures. If no, begin executing long-term containment procedures. 
 
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/incident-handling/03-contain/README.md#contents">Top of Page</a> |
-  <a href="/incident-handling/03-contain/README.md#bottom-of-page">Bottom of Page</a>
-</p>
-
-## Bottom of Page
+### 5-4. Long-Term Containment Procedures
+Cyber Defense personnel must execute the procedures below to contain incidents where affected computers cannot be taken offline. 
+* Change the password to any account abused during the incident. 
+* Stop any unauthorized processes on the impacted computer. 
+* Patch the computers impacted as well as any nearby (within the same Virtual Local Area Network or subnet) computers if a vulnerability was exploited. 
