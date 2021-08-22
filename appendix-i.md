@@ -1,9 +1,4 @@
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/00-prerequisites/security-onion/elastalert.md#contents">Top of Page</a> |
-  <a href="/00-prerequisites/security-onion/elastalert.md#bottom-of-page">Bottom of Page</a>
-</p>
-
+# Appendix I
 # ElastAlert
 ## Contents
 * [Whitelist - IP Addresses](#whitelist-ip-addresses)
@@ -101,10 +96,61 @@ alert:
 - "debug"
 ```
 
-<p align="right">
-  <a href="/README.md">Home Page</a> |
-  <a href="/00-prerequisites/security-onion/elastalert.md#contents">Top of Page</a> |
-  <a href="/00-prerequisites/security-onion/elastalert.md#bottom-of-page">Bottom of Page</a>
-</p>
+# Suricata
 
-## Bottom of Page
+## Contents
+* [Suppress Alerts](#suppress-alerts)
+
+## Suppress Alerts
+```bash
+sudo vi /opt/so/saltstack/local/pillar/global.sls
+```
+```yaml
+thresholding:
+  sids:
+    0123456789:
+      - suppress:
+        gen_id: 1
+        track: by_src
+        ip: 10.11.12.13
+```
+```bash
+sudo salt \* state.highstate
+```
+```bash
+cat /opt/so/conf/suricata/threshold.conf
+```
+
+# Winlogbeat
+## Contents
+* [Installing Winlogbeat on a WEC Server](#installing-winlogbeat-on-a-wec-server)
+* [Filtering Events](#filtering-events)
+
+## Installing Winlogbeat on a WEC Server
+Download Winlogbeat onto your Windows Event Collector (WEC) server.  
+https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-7.9.3-windows-x86_64.zip 
+
+Modify the default configuration file so it reflects what is below (called ‘winlogbeat.yml’).
+```yaml
+winlogbeat.event_logs:
+  - name: ForwardedEvents
+tags: ['winlogbeat']
+output.logstash:
+  hosts: ['10.10.10.21:5044']
+```
+
+Run the installation script.
+```pwsh
+./install-winlogbeat.ps1
+```
+
+Start the Winlogbeat service.
+```pwsh
+Start-Service winlogbeat
+```
+
+## Filtering Events
+See below.
+
+## References
+* https://www.elastic.co/guide/en/beats/winlogbeat/current/drop-event.html 
