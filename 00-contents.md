@@ -1,6 +1,4 @@
-
 # Incident Handling SOP  
-
 ## Contents  
 ### Chapter 1
 **Introduction**  
