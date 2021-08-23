@@ -1,20 +1,21 @@
 ## Incident Handling Standard Operating Procedures
-**Chapter 1: Introduction**  
-**Chapter 2: Preparation**  
-**Chapter 3: Detection**  
-**Chapter 4: Analysis**  
-**Chapter 5: Containment**  
-**Chapter 6: Eradication**  
-**Chapter 7: Recovery**  
-**Chapter 8: Post-Incident Activity**  
-**Appendix A: References**  
-**Appendix B: Responsiblities**  
-**Appendix C: Data Flow Diagram**  
-**Appendix D: STRIDE Matrix**  
-**Appendix E: Asset Inventory**  
-**Appendix F: Baselines**  
-**Appendix G: Battle Rhythm**  
-**Appendix I: Procedures for Installing, Operating, and Maintaining Incident Handling Technology**  
-**Appendix J: Daily Security Monitoring Checklist**  
-**Appendix K: Case Templates**  
-**Glossary**
+[Table of Contents](/00-contents.md)  
+[Chapter 1: Introduction](/01-introduction.md)  
+[Chapter 2: Preparation](/02-preparation.md)  
+[Chapter 3: Detection](/03-detection.md)  
+[Chapter 4: Analysis](/04-analysis.md)  
+[Chapter 5: Containment](/05-containment.md)  
+[Chapter 6: Eradication](/06-eradication.md)  
+[Chapter 7: Recovery](/07-recovery.md)  
+[Chapter 8: Post-Incident Activity](/08-post-incident-activity.md)   
+[Appendix A: References](/appendix-a.md)  
+[Appendix B: Responsiblities](/appendix-b.md)    
+[Appendix C: Data Flow Diagram](/appendix-c.md)  
+[Appendix D: STRIDE Matrix](/appendix-d.md)  
+[Appendix E: Asset Inventory](/appendix-e.md)  
+[Appendix F: Baselines](/appendix-f.md)    
+[Appendix G: Battle Rhythm](/appendix-g.md)    
+[Appendix H: Incident Handling Technology](/appendix-h.md)   
+[Appendix I: Daily Security Monitoring Checklist](/appendix-i.md)  
+[Appendix J: Case Templates](/appendix-j.md)  
+[Glossary](/glossary.md)
