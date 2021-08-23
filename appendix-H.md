@@ -1,12 +1,14 @@
-# Appendix I
-# ElastAlert
-## Contents
+**Appendix H**  
+**Incident Handling Technology**
+
+**ElastAlert**  
+**Contents**
 * [Whitelist - IP Addresses](#whitelist-ip-addresses)
 * [Whitelist - Ports](#whitelist-ports)
 * [Whitelist - DNS Queries](#whitelist-dns-queries)
 * [Frequency - Logon Failures](#frequency-logon-failures)
 
-## Whitelist IP Addresses
+**Whitelist IP Addresses**  
 Create a whitelist file under /etc/elastalert/rules/ called _authorized_ips.txt
 ```
 192.168.56.1
