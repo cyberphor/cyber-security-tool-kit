@@ -1,13 +1,13 @@
-# Appendix A 
+**Appendix A**  
 **References**
 
-## Section I  
+**Section I** 
 **Required Publications**  
 * AR 25-2, Army Cybersecurity
 * DA PAM 25-2-6, Cybersecurity Training and Certification Program
 * DA PAM 25-2-17, Incident Reporting
 
-## Section II  
+**Section II**  
 **Related Publications**  
 * DoDI 8510.01, Risk Management Framework for DoD Information Technology 
 * DoDI 8530.01, Cybersecurity Activities Support to DoD Information Network Operations
@@ -18,6 +18,6 @@
 * ATP 6-0.5, Command Post Organizations and Operations
 * TC 3-22.6, Guard Duty
 
-## Section III 
+**Section III**  
 **Forms**  
 * DA Form 1594
