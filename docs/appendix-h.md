@@ -64,13 +64,32 @@ Computer Configuration > Policies > Administrative Templates > Windows Component
 * Turn on Module Logging: Enabled 
 * Turn on Script Block Logging: Enabled 
 
-**ElastAlert**  
-**Contents**
-* [Whitelist - IP Addresses](#whitelist-ip-addresses)
-* [Whitelist - Ports](#whitelist-ports)
-* [Whitelist - DNS Queries](#whitelist-dns-queries)
-* [Frequency - Logon Failures](#frequency-logon-failures)
+**H-4. Windows Event Collector**  
+The procedures below are to be executed on the machine designed as the WEC server. This machine must be running the Windows Server Operating System (OS). 
 
+**Configuring a WEC Server for the First Time**   
+* Start the WEC service on the server designated for collecting Windows Event logs using this command:
+  * Start-Service wecsv
+* Create event subscriptions for each of the following: Firewall, Removable Media, Authentication, DNS, Process Execution, Command and Scripting Interpreter, Services, Scheduled Tasks, Privileged Users, Log Management, Printing, Shares Accessed, Account Management, Wireless Network Activity
+* Configure log retention using the following settings:  
+  * Set the “Forward Events” log to 4,194,304 KBs (roughly 4 GBs)
+  * Set the “When maximum event log size is reached” field to “Archive the log when full, do not overwrite old events” 
+  * C:\Windows\System32\winevt\Logs\ 
+* Create a custom view for each of the following under: C:\ProgramData\Microsoft\Event Viewer\Views\ 
+  * Last 24 hours
+  * Last 3 days
+  * Last 7 days
+  * Testing
+
+**Troubleshooting a WEC Server: How to Add a New Disk Drive**
+* diskpart
+* list disk
+* select disk 1
+* attributes disk clear readonly (removes media write protection)
+* online disk (activates the select disk)
+* exit
+
+**H-5. ElastAlert**  
 **Whitelist IP Addresses**  
 Create a whitelist file under /etc/elastalert/rules/ called _authorized_ips.txt
 ```
@@ -94,7 +113,7 @@ alert:
     - debug
 ```
 
-## Whitelist - Ports
+**Whitelist - Ports**  
 Create a whitelist file under /etc/elastalert/rules/ called _authorized_ports.txt
 ```
 22
@@ -117,7 +136,7 @@ alert:
     - debug
 ```
 
-## Whitelist - DNS Queries
+**Whitelist - DNS Queries**  
 Create a whitelist file under /etc/elastalert/rules/ called _normal_domains.txt
 ```
 github.com
@@ -143,7 +162,7 @@ alert:
     - debug
 ```
 
-## Frequency - Logon Failures
+**Frequency - Logon Failures**  
 Create a rule configuration file (called ‘winlogbeat.yml’).
 ```yaml
 es_host: elasticsearch
@@ -161,12 +180,8 @@ alert:
 - "debug"
 ```
 
-# Suricata
-
-## Contents
-* [Suppress Alerts](#suppress-alerts)
-
-## Suppress Alerts
+**Suricata**  
+**Suppress Alerts**  
 ```bash
 sudo vi /opt/so/saltstack/local/pillar/global.sls
 ```
@@ -186,12 +201,8 @@ sudo salt \* state.highstate
 cat /opt/so/conf/suricata/threshold.conf
 ```
 
-# Winlogbeat
-## Contents
-* [Installing Winlogbeat on a WEC Server](#installing-winlogbeat-on-a-wec-server)
-* [Filtering Events](#filtering-events)
-
-## Installing Winlogbeat on a WEC Server
+**Winlogbeat**  
+**Installing Winlogbeat on a WEC Server**  
 Download Winlogbeat onto your Windows Event Collector (WEC) server.  
 https://artifacts.elastic.co/downloads/beats/winlogbeat/winlogbeat-7.9.3-windows-x86_64.zip 
 
@@ -214,8 +225,8 @@ Start the Winlogbeat service.
 Start-Service winlogbeat
 ```
 
-## Filtering Events
+**Filtering Events**  
 See below.
 
-## References
+**References**  
 * https://www.elastic.co/guide/en/beats/winlogbeat/current/drop-event.html 
