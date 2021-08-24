@@ -81,7 +81,7 @@ The procedures below are to be executed on the machine designed as the WEC serve
   * Last 7 days
   * Testing
 
-**Troubleshooting a WEC Server: How to Add a New Disk Drive**
+**How to Add a New Disk Drive**
 * diskpart
 * list disk
 * select disk 1
