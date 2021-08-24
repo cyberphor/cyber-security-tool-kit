@@ -62,9 +62,8 @@ D. STRIDE Matrix
 E. Asset Inventory  
 F. Baselines  
 G. Battle Rhythm  
-H. Technology Requirements, Solutions, and Prerequisites  
-I. Procedures for Installing, Operating, and Maintaining Incident Handling Technology  
-J. Daily Security Monitoring Checklist  
-K. Case Templates  
+H. Incident Handling Tools  
+I. Daily Security Monitoring Checklist  
+J. Case Templates  
 
 **Glossary**
