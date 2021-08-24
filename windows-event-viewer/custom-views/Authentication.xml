@@ -1,0 +1,10 @@
+<QueryList>
+  <Query Id="0" Path="ForwardedEvents">
+    <Select Path="ForwardedEvents">
+      *[System[(EventID=4624 or EventID=4625) and TimeCreated[timediff(@SystemTime) &lt;= 86400000]]]
+    </Select>
+    <Suppress Path="ForwardedEvents">
+      *[EventData[Data[@Name="TargetUserSid"] = "S-1-5-18"]]
+    </Suppress>
+  </Query>
+</QueryList>

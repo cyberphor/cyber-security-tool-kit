@@ -1,0 +1,10 @@
+<QueryList>
+  <Query Id="0" Path="ForwardedEvents">
+    <Select Path="ForwardedEvents">
+      *[System[(EventID=4688) and TimeCreated[timediff(@SystemTime) &lt;= 604800000]]] and
+      *[EventData[Data[@Name='NewProcessName'] = 'C:\Windows\System32\cmd.exe']] or 
+      *[EventData[Data[@Name='NewProcessName'] = 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe']] or
+      *[EventData[Data[@Name='NewProcessName'] = 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe']]
+  </Select>
+  </Query>
+</QueryList>

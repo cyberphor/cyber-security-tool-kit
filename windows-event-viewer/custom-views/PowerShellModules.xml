@@ -1,0 +1,7 @@
+<QueryList>
+  <Query Id="0" Path="ForwardedEvents">
+    <Select Path="ForwardedEvents">
+      *[System[(EventID=4103 or EventID=4104) and TimeCreated[timediff(@SystemTime) &lt;= 604800000]]]
+    </Select>
+  </Query>
+</QueryList>

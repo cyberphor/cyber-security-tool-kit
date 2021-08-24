@@ -1,0 +1,8 @@
+<QueryList>
+  <Query Id="0" Path="Microsoft-Windows-AppLocker/EXE and DLL">
+    <Select Path="Microsoft-Windows-AppLocker/EXE and DLL">*[System[(EventID=8004 or EventID=8007)]]</Select>
+    <Select Path="Microsoft-Windows-AppLocker/MSI and Script">*[System[(EventID=8004 or EventID=8007)]]</Select>
+    <Select Path="Microsoft-Windows-AppLocker/Packaged app-Deployment">*[System[(EventID=8004 or EventID=8007)]]</Select>
+    <Select Path="Microsoft-Windows-AppLocker/Packaged app-Execution">*[System[(EventID=8004 or EventID=8007)]]</Select>
+  </Query>
+</QueryList>
