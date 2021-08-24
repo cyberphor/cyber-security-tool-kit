@@ -1,10 +1,10 @@
-**Appendix K**  
+**Appendix J**  
 **Case Templates**  
 
-**K-1. Overview**  
+**J-1. Overview**  
 Our case templates represent what we plan to do if we detect something suspicious or malicious within the network. Each task group below represents a different phase of the incident handling process. 
 
-**K-2. Case Templates**  
+**J-2. Case Templates**  
 * Template name: Suspicious activity 
 * Title prefix: Case: 
 * Severity: Medium
