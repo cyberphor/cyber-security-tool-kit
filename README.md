@@ -1,4 +1,4 @@
-## Incident Handling Standard Operating Procedures
+## Incident Handling SOPs
 [Table of Contents](/00-contents.md)  
 [Chapter 1: Introduction](/01-introduction.md)  
 [Chapter 2: Preparation](/02-preparation.md)  
