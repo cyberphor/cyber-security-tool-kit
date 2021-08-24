@@ -13,7 +13,7 @@
 | TIP | CrowdStrike | CrowdStrike accounts for every Cyber Defense person and web-browser access to CrowdStrike. |
 | Deployable Incident Response Toolkit | Jump bag | Blank HDDs, hardware write-blocker, SANS Investigative Forensic Toolkit (SIFT), network tap, network cables, computer repair tools, and incident response forms. |
 
-**H-2. Windows Event**
+**H-2. Windows Events**
 | Group Policy Option | Event IDs Generated | 
 | ------------------- | ------------------- |
 | User Account Management | 4720, 4722, 4723, 4724 |
