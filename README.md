@@ -1,21 +1,7 @@
-## Incident Handling SOPs
-[Table of Contents](/docs/00-contents.md)  
-[Chapter 1: Introduction](/docs/01-introduction.md)  
-[Chapter 2: Preparation](/docs/02-preparation.md)  
-[Chapter 3: Detection](/docs/03-detection.md)  
-[Chapter 4: Analysis](/docs/04-analysis.md)  
-[Chapter 5: Containment](/docs/05-containment.md)  
-[Chapter 6: Eradication](/docs/06-eradication.md)  
-[Chapter 7: Recovery](/docs/07-recovery.md)  
-[Chapter 8: Post-Incident Activity](/docs/08-post-incident-activity.md)   
-[Appendix A: References](/docs/appendix-a.md)  
-[Appendix B: Responsiblities](/docs/appendix-b.md)    
-[Appendix C: Data Flow Diagram](/docs/appendix-c.md)  
-[Appendix D: STRIDE Matrix](/docs/appendix-d.md)  
-[Appendix E: Asset Inventory](/docs/appendix-e.md)  
-[Appendix F: Baselines](/docs/appendix-f.md)    
-[Appendix G: Battle Rhythm](/docs/appendix-g.md)    
-[Appendix H: Incident Handling Technology](/docs/appendix-h.md)   
-[Appendix I: Daily Security Monitoring Checklist](/docs/appendix-i.md)  
-[Appendix J: Case Templates](/docs/appendix-j.md)  
-[Glossary](/docs/glossary.md)
+## Incident Handling
+Incident handling procedures and tool cheatsheets.
+
+![incident-handling](/misc/incident-handling-process.png)
+
+## Copyright
+This project is licensed under the terms of the [MIT license](/LICENSE).
