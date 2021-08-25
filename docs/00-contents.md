@@ -9,9 +9,14 @@ Overview
 
 **Chapter 2**  
 **Preparation Procedures**  
-People  
-Processes  
-Technology  
+People, Processes, and Technology  
+Responsibilities  
+Data Flow Diagram  
+STRIDE Matrix  
+Asset Inventory  
+Baselines  
+Battle Rhythm  
+Incident Handling Tools  
 
 **Chapter 3**  
 **Detection Procedures**  
@@ -24,6 +29,7 @@ Daily Security Monitoring Checklist
 Overview  
 Investigation Procedures  
 Triage Procedures  
+Case Templates
 
 **Chapter 5**  
 **Containment Procedures**  
@@ -52,18 +58,9 @@ Monitoring Procedures
 Overview  
 Procedures for Conducting an AAR  
 Reporting Procedures  
-Procedures for Implementing Lessons Learned  
+Procedures for Implementing Lessons Learned
 
-**Appendixes**  
-A. References  
-B. Responsibilities  
-C. Data Flow Diagram  
-D. STRIDE Matrix  
-E. Asset Inventory  
-F. Baselines  
-G. Battle Rhythm  
-H. Incident Handling Tools  
-I. Daily Security Monitoring Checklist  
-J. Case Templates  
-
-**Glossary**
+**Chapter 9**  
+**Miscellaneous**  
+References
+Glossary
