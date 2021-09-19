@@ -24,4 +24,4 @@ C:\Users\Victor\SCC\Sessions\2021-09-18_224007\Results\SCAP\XML
 WINDOWS_SCC-5.4.2_2021-09-18_224007_XCCDF-Results_Windows_10_STIG-002.002
 ```
 
-**Step 10.** In STIG Viewer, click-on "File > Save Checklist As...", and save the checklist using an appropiate name (ex: win10-stig-before.ckl). Then, begin applying the fixes (from the "Fix Text" section) for each "Rule." Go from CAT I to CAT II and then, CAT III. Focus on rules based on their "Status:" Open (O), Not Reviewed (NR), Not a Finding (NF), and Not Applicable (NA). Once you've made significant progress (ex: address all CAT I findings), run another scan. 
+**Step 10.** In STIG Viewer, click-on "File > Save Checklist As...", and save the checklist using an appropiate name (ex: win10-stig-before.ckl). Then, begin applying the fixes (from the "Fix Text" section) for each "Rule." Go from CAT I to CAT II and then, CAT III. Focus on rules based on their "Status:" Open (O), Not Reviewed (NR), Not a Finding (NF), and Not Applicable (NA). Once you've made significant progress (ex: addressed all CAT I findings), run another scan. 
