@@ -1,4 +1,4 @@
-## Windows Security
+## Windows Security Concepts
 ### Table of Contents
 * [Security Access Tokens (SATs)](#security-access-tokens-sats)
 * [Privileges](#privileges)
