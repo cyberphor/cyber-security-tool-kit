@@ -1,5 +1,5 @@
-## Incident Handling
-Incident handling procedures and tool cheatsheets.
+## Incident Handling TTPs
+Incident Handling Tactics, Techniques, and Procedures (TTPs).
 
 ![incident-handling](/nist-incident-handling-process.png)
 
