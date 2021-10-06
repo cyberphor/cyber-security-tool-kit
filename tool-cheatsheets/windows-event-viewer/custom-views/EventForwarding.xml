@@ -1,7 +1,0 @@
-<QueryList>
-  <Query Id="0" Path="Microsoft-Windows-Forwarding/Operational">
-    <Select Path="Microsoft-Windows-Forwarding/Operational">
-    *
-    </Select>
-  </Query>
-</QueryList>

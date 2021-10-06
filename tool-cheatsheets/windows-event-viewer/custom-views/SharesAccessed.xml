@@ -1,7 +1,0 @@
-<QueryList>
-  <Query Id="0" Path="Security">
-    <Select Path="Security">
-      *[System[(EventID=5140)]]
-    </Select>
-  </Query>
-</QueryList>

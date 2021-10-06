@@ -1,7 +1,0 @@
-<QueryList>
-  <Query Id="0" Path="Microsoft-Windows-DNS-Client/Operational">
-    <Select Path="Microsoft-Windows-DNS-Client/Operational">
-      *[System[(EventID=3006)]]
-    </Select>
-  </Query>
-</QueryList>
