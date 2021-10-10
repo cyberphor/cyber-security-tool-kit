@@ -1,4 +1,4 @@
-### How to Use DISA STIGs
+### Using DISA STIGs
 **Step 1.** Download and unzip the Defense Information Systems Agency (DISA) Security Technical Implementation Guide (STIG) Library.  
 https://public.cyber.mil/stigs/compilations/
 
