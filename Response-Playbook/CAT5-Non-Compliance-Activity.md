@@ -1,18 +1,18 @@
-### CAT 2 (User-Level Intrusion)
+### CAT 5 (Non-Compliance Activity)
 
 ---
 
-**Play ID.** CAT2-User-Level-Intrusion.
+**Play ID.** CAT5-Non-Compliance-Activity.
 
-**Task.** Respond to a CAT 2 (User-Level Intrusion) cyber incident.
+**Task.** Respond to a CAT 5 (Non-Compliance Activity) cyber incident.
 
-**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized non-privileged access to a computer, (2) unauthorized non-privileged access to credentials that could be used to perform user functions such as accessing Web applications, Web portals, or other similar information resources, or (3) if a computer was compromised with malware that provides remote access. 
+**When to Run This Play.** Run this play if one or more of the following is detected: (1) policy violations (i.e., cross-domain violations), (2) a vulnerable application was installed, or (3) a security patch was not installed. 
 
-**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a root-level intrusion. 
+**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during an instance of non-compliant cyber activity. 
 
 **Conditions.** An audit policy has been configured and WinRM is enabled across the network. You are given a list of computer names, domain administrator permissions, access to PowerShell, and knowledge of the accepted configuration baseline (ex: STIGs, SHB, etc.). 
 
-**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 2 cyber incident.
+**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 5 cyber incident.
 
 ---
 

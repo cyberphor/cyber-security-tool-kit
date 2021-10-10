@@ -1,18 +1,20 @@
-### CAT 2 (User-Level Intrusion)
+### CAT 6 (Reconnaissance)
 
 ---
 
-**Play ID.** CAT2-User-Level-Intrusion.
+**Play ID.** CAT6-Reconnaissance.
 
-**Task.** Respond to a CAT 2 (User-Level Intrusion) cyber incident.
+**Task.** Respond to a CAT 6 (Reconnaissance) cyber incident.
 
-**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized non-privileged access to a computer, (2) unauthorized non-privileged access to credentials that could be used to perform user functions such as accessing Web applications, Web portals, or other similar information resources, or (3) if a computer was compromised with malware that provides remote access. 
+**When to Run This Play.** Run this play if one or more of the following is detected: (1) attempts to gather information that could be used to characterize networks, computers, applications, and/or users prior to a cyber attack, or (2) attempts to map the structure or interconnectivity of networks, computers, applications, and users. 
 
-**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a root-level intrusion. 
+(1) unauthorized privileged access to a computer, (2) unauthorized access to credentials that could be used to perform administrative functions (e.g., domain administrator), or (3) if a computer is compromised with malware that provides remote access. 
+
+**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during an instance of cyber reconnaissance. 
 
 **Conditions.** An audit policy has been configured and WinRM is enabled across the network. You are given a list of computer names, domain administrator permissions, access to PowerShell, and knowledge of the accepted configuration baseline (ex: STIGs, SHB, etc.). 
 
-**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 2 cyber incident.
+**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 6 cyber incident.
 
 ---
 

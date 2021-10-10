@@ -1,18 +1,18 @@
-### CAT 2 (User-Level Intrusion)
+### CAT 8 (Investigation)
 
 ---
 
-**Play ID.** CAT2-User-Level-Intrusion.
+**Play ID.** CAT8-Investigation.
 
-**Task.** Respond to a CAT 2 (User-Level Intrusion) cyber incident.
+**Task.** Respond to a CAT 8 (Investigation) cyber incident.
 
-**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized non-privileged access to a computer, (2) unauthorized non-privileged access to credentials that could be used to perform user functions such as accessing Web applications, Web portals, or other similar information resources, or (3) if a computer was compromised with malware that provides remote access. 
+**When to Run This Play.** Run this play if one or more of the following is detected: suspicious or malicious activity that warrants further review.
 
-**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a root-level intrusion. 
+**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a uncategorized cyber incident. 
 
 **Conditions.** An audit policy has been configured and WinRM is enabled across the network. You are given a list of computer names, domain administrator permissions, access to PowerShell, and knowledge of the accepted configuration baseline (ex: STIGs, SHB, etc.). 
 
-**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 2 cyber incident.
+**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 8 cyber incident.
 
 ---
 

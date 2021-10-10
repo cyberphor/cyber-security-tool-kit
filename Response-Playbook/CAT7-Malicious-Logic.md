@@ -1,18 +1,18 @@
-### CAT 2 (User-Level Intrusion)
+### CAT 7 (Malicious Logic)
 
 ---
 
-**Play ID.** CAT2-User-Level-Intrusion.
+**Play ID.** CAT7-Malicious-Logic.
 
-**Task.** Respond to a CAT 2 (User-Level Intrusion) cyber incident.
+**Task.** Respond to a CAT 7 (Malicious Logic) cyber incident.
 
-**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized non-privileged access to a computer, (2) unauthorized non-privileged access to credentials that could be used to perform user functions such as accessing Web applications, Web portals, or other similar information resources, or (3) if a computer was compromised with malware that provides remote access. 
+**When to Run This Play.** Run this play if one or more of the following is detected: the installation of software designed and/or deployed by threat actors with malicious intention (i.e., gaining non-interactive access to information or resources without the consent or knowledge of the user).
 
-**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a root-level intrusion. 
+**Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during the spread of malware. 
 
 **Conditions.** An audit policy has been configured and WinRM is enabled across the network. You are given a list of computer names, domain administrator permissions, access to PowerShell, and knowledge of the accepted configuration baseline (ex: STIGs, SHB, etc.). 
 
-**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 2 cyber incident.
+**Standards.** The Incident Response Team was able to contain, eradicate, and recover from a CAT 7 cyber incident.
 
 ---
 

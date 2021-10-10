@@ -6,7 +6,7 @@
 
 **Task.** Respond to a CAT 1 (Root-Level Intrusion) cyber incident.
 
-**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized privileged access to a computer, (2) unauthorized access to credentials that could be used to perform administrative functions (e.g., domain administrator), or (3) if a computer is compromised with malware that provides remote access. 
+**When to Run This Play.** Run this play if one or more of the following is detected: (1) unauthorized privileged access to a computer, (2) unauthorized access to credentials that could be used to perform administrative functions (e.g., domain administrator), or (3) if a computer was compromised with malware that provides remote access. 
 
 **Purpose.** The purpose of this play is to preserve evidence and minimize operational impact while guiding the Incident Response Team through containment, eradication, and recovery efforts during a root-level intrusion. 
 
