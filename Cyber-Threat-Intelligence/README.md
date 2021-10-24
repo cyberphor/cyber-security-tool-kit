@@ -17,4 +17,5 @@ Below is a list of Advanced Persistent Threat (APT) groups who were actively tar
 | Russian Federation | BERSERK BEAR | |
 
 ### MITRE ATT&CK Framework Mappings
+The highlighted blocks below represent the various cyber activities to monitor on US-based government and/or military computer networks. The more common the TTP is between Chinese, Iranian, North Korean, and Russia APT groups, the more red the block will be. 
 ![Cyber Adversary TTPs](/_Images/Cyber_Adversary_TTPs.svg)
