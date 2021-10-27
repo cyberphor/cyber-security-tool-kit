@@ -10,7 +10,7 @@
 
 **Standard.** You were able to create a Group Policy Object (GPO) for auditing.
 
-**Note.** When performing this procedure, replace “evil.corp” with your domain’s actual name 
+**Note.** When performing this procedure, replace “evil.corp” with your domain’s actual name.
 
 ---
 
