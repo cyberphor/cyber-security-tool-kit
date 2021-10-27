@@ -1,5 +1,6 @@
 ### How to Configure an Audit Policy
 
+---
 
 **Task.** Configure an Audit Policy.
 
