@@ -1,5 +1,17 @@
-### How to Enable Specific Windows Event Logs
-How to Check What Logs Are Currently Enabled.
+### How to Configure an Audit Policy on a Stand-Alone Computer
+
+---
+
+**Task.** Configure an audit policy on a stand-alone computer.
+
+**Purpose.** An audit policy specifies categories of security-related events you want to audit.
+
+**Conditions.** You have domain administrator privileges and access to Remote Server Administration Tools (RSAT).  
+
+**Standard.** You were able to configure an audit policy on a stand-alone computer.
+
+---
+
 ```
 auditpol /get /category:*
 ```
