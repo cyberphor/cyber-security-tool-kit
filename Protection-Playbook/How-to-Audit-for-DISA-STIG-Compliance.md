@@ -1,4 +1,17 @@
-### Using DISA STIGs
+### How to Audit for DISA STIG Compliance
+
+---
+
+**Task.** Audit for DISA STIG Compliance. 
+
+**Purpose.** Security Technical Implementation Guides (STIGs) developed by the Defense Information Systems Agency (DISA) represent the configuration standard for the Department of Defense.  
+
+**Conditions.** You have access to the DISA STIG Library, STIG Compliance Checker (SCC), and STIG Viewer tools. 
+
+**Standard.** You were able to audit for DISA STIG compliance and identify Category (CAT) I, II, and III findings. 
+
+---
+
 **Step 1.** Download and unzip the Defense Information Systems Agency (DISA) Security Technical Implementation Guide (STIG) Library.  
 https://public.cyber.mil/stigs/compilations/
 
