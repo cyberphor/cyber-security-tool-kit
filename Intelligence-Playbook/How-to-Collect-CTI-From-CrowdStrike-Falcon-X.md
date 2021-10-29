@@ -1,3 +1,4 @@
+### How to Collect Cyber Threat Intelligence (CTI) From CrowdStrike Falcon X
 
 ---
 
@@ -5,7 +6,7 @@
 
 **Purpose.** Using cyber threat intelligence platforms like CrowdStrike Falcon X allows you to enhance endpoint security, automate investigations, and reduce response times. MITRE ATT&CK is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s attack lifecycle and the platforms they are known to target.
 
-**Conditions.** You have access to the CrowdStrike Falcon X. 
+**Conditions.** You have access to CrowdStrike Falcon X. 
 
 **Standard.** You were able to collect CTI from CrowdStrike Falcon X.  
 
@@ -33,6 +34,4 @@
 
 **Step 6.** Review available reports by type (ex: Periodic Report, Alert, Tipper, Intelligence Report). 
 
-**Step 7.** Review the APT group’s metadata under “Kill Chain” and “Community Identifiers.”
-Map the APT group’s methodology and techniques to the MITRE ATT&CK framework (see next page for an example). Use these mappings to enhance your incident detection and response playbooks. 
-* https://attack.mitre.org/matrices/enterprise/ 
+**Step 7.** Review the APT group’s metadata under “Kill Chain” and “Community Identifiers.” Map the APT group’s methodology and techniques to the MITRE ATT&CK Framework.
