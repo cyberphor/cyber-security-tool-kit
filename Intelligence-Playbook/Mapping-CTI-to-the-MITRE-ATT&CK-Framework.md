@@ -1,4 +1,4 @@
-### Cyber Threat Intelligence
+### Mapping Cyber Threat Intelligence (CTI) to the MITRE ATT&CK Framework
 
 Below is a list of Advanced Persistent Threat (APT) groups who were actively targeting US-based government and/or military organizations between July and October 2021. 
 
