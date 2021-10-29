@@ -1,4 +1,4 @@
-### Windows Incident Response Cheat-Sheet
+### Incident Response Cheat-Sheet: Windows
 
 Detecting unusual network activity
 ```bash
