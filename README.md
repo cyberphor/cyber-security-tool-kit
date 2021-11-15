@@ -1,5 +1,5 @@
 ## Incident Handling TTPs
-Incident Handling Tactics, Techniques, and Procedures (TTPs).
+Incident Handling policies, playbooks, and software guides.
 
 ![Incident-Handling-Process](/Misc/Incident-Handling-Process.png)
 
