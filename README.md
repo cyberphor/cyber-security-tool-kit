@@ -1,4 +1,4 @@
-## Incident Handling TTPs
+## Incident Handling
 Incident Handling policies, playbooks, and software guides.
 
 ![Incident-Handling-Process](/Misc/Incident-Handling-Process.png)
