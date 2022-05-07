@@ -1,9 +1,7 @@
 ## Cybersecurity
 Cybersecurity policies, procedures, and products.
 
-![Incident-Handling-Process](/Misc/Incident-Handling-Process.png)
-
-### Important Links
+### Helpful Links
 * [Army Naming Conventions and Standards](https://army.deps.mil/netcom/sites/resourcecenter/pages/cinamingconventions.aspx)
 * [Blog](https://cyberphor.com/)
 * [CrowdStrike Falcon X Login Page](https://falcon.crowdstrike.com/login/)
@@ -17,4 +15,4 @@ Cybersecurity policies, procedures, and products.
 * [VirusTotal](https://www.virustotal.com/gui/home/upload)
 
 ## Copyright
-This project is licensed under the terms of the [MIT license](/Misc/LICENSE).
+This project is licensed under the terms of the [MIT license](/LICENSE).
