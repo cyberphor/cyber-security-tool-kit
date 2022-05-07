@@ -1,5 +1,5 @@
-## Incident Handling
-Incident Handling policies, playbooks, and software guides.
+## Cybersecurity
+Cybersecurity policies, procedures, and products.
 
 ![Incident-Handling-Process](/Misc/Incident-Handling-Process.png)
 
