@@ -1,5 +1,5 @@
 ## Cybersecurity
-Cybersecurity policies, procedures, and products.
+Cybersecurity policies, procedures, and data products.
 
 ### Helpful Links
 * [Army Naming Conventions and Standards](https://army.deps.mil/netcom/sites/resourcecenter/pages/cinamingconventions.aspx)
