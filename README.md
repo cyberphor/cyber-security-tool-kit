@@ -3,13 +3,13 @@
 * [Enclosure 1: Cybersecurity Policy](/)
 * [Enclosure 2: Cybersecurity SOPs](/)
 * [Enclosure 2: Cybersecurity SOPs (Appendix A)](/)
+* [Enclosure 2: Incident Response Plans](/)
 * [Enclosure 3: Network Diagrams](/)
 * [Enclosure 4: Asset Inventory](/)
 * [Build Guides](/Build-Guides/)
 
 ### Related Links
 * [Army Naming Conventions and Standards](https://army.deps.mil/netcom/sites/resourcecenter/pages/cinamingconventions.aspx)
-* [Blog](https://cyberphor.com/)
 * [CrowdStrike Falcon X Login Page](https://falcon.crowdstrike.com/login/)
 * [DISA ACAS License Request Portal](https://disa.deps.mil/ext/cop/mae/netops/acas/Requests/index.aspx#/)
 * [DoD Patch Repository](https://patches.csd.disa.mil/)
