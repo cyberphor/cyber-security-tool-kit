@@ -20,5 +20,5 @@
 * [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
 * [VirusTotal](https://www.virustotal.com/gui/home/upload)
 
-## Copyright
+### Copyright
 This project is licensed under the terms of the [MIT license](/LICENSE).
