@@ -3,7 +3,7 @@
 * [Enclosure 1: Cybersecurity Policy](/)
 * [Enclosure 2: Cybersecurity SOPs](/)
 * [Enclosure 2: Cybersecurity SOPs (Appendix A)](/)
-* [Enclosure 2: Incident Response Plans](/)
+* [Enclosure 2: Incident Response Plans](/Encl-2-Incident-Response-Plans/)
 * [Enclosure 3: Network Diagrams](/)
 * [Enclosure 4: Asset Inventory](/)
 * [Build Guides](/Build-Guides/)
