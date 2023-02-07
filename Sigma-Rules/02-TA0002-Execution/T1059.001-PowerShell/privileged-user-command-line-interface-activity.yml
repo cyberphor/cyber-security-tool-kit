@@ -1,0 +1,30 @@
+title: Privileged User Command Line Interface Activity
+id: aff6e0a5-bfb7-4ae0-a648-83b33c85d330
+status: experimental
+description: Detects when a privileged user invokes PowerShell.
+author: Victor Fernandez III
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4688
+        User|contains:
+        - "admin"
+        - ".ea"
+        - ".da"
+        winlog.event_data.ParentProcessName|endswith:
+        - "powershell"
+        - "cmd.exe"
+    filter_process_name:
+        winlog.event_data.NewProcessName|endswith:
+        - "conhost.exe"
+    filter_command_line:
+        winlog.event_data.CommandLine|contains:
+        - "foo.ps1"
+    condition: selection and not 1 of filter*
+falsepositives:
+    - None
+fields:
+    - NewProcessName
+level: high
