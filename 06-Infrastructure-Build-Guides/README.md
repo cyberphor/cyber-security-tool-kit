@@ -1,4 +1,4 @@
-## Logging
+## Blue Team Cheat Sheet
 
 **Windows**  
 Log Network Connections
